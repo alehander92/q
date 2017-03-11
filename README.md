@@ -40,4 +40,3 @@ In the same way a file can be an image / a string / a list of words / a list of 
 Of course, for a programmer it's natural to extract or access this kind of "view" of the data, but a normal user might expect to be able to do all of this with this abstract "file", e.g.:
 
 (Yes, no programmer in his right mind should use stuff like this, and )
-Alexander Ivanov, 2017
