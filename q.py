@@ -10,10 +10,7 @@ WORD_REGEX = re.compile(r'word')
 SENTENCE_REGEX = re.compile(r'sentence')
 PARAGRAPH_REGEX = re.compile(r'paragraph')
 
-class Q:
-    pass
-
-class QFile(Q):
+class QFile:
 
     def __init__(self, a, text):
         self._a = a

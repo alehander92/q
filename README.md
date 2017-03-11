@@ -7,15 +7,21 @@ f = read_file('a')
 
 for ugh in f:
     print(ugh)
-# letters
+# I 
+# a
+# ..letters
 
 for word_x in f:
     print(word_x)
-# words
+# I
+# am
+# ..words
 
 for i, long_sentence in enumerate(f):
     print('%d:%s' % (i, long_sentence))
-# sentences
+# 0:I am ok
+# 1:How are you
+# ..sentences
 
 
 for i, paragraph in enumerate(f):
@@ -33,4 +39,5 @@ e.g. a coffee place can be a place for refreshments, a good place for chatting w
 In the same way a file can be an image / a string / a list of words / a list of sentences / a configuration based on what you already know about it and the way you want to use it.
 Of course, for a programmer it's natural to extract or access this kind of "view" of the data, but a normal user might expect to be able to do all of this with this abstract "file", e.g.:
 
+(Yes, no programmer in his right mind should use stuff like this, and )
 Alexander Ivanov, 2017
